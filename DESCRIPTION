@@ -1,0 +1,21 @@
+Package: biokangr
+Type: Package
+Title: Basic utilities for working with BioKanga
+Version: 0.1.0
+Author: Alex Whan
+Authors@R: c(
+    person("Alex", "Whan", , "alexwhan@gmail.com", c("aut", "cre"))
+    )
+Depends:
+    R (>= 2.14),
+    dplyr (>= 0.4),
+    readr (>= 0.2)
+Imports:
+    dplyr (>= 0.4),
+    ggplot2,
+    tidyr (>= 0.3),
+    GenomicRanges (>= 1.0)
+Description: Basic functionality for working with Biokanga in R.
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1
